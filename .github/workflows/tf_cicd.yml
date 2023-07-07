@@ -54,8 +54,6 @@ jobs:
       - name: Generate Infracost cost estimate baseline
         run: |
           infracost breakdown --path=.
-                              --format=json \
-                              --out-file=/tmp/infracost-base.json
 
         
       
