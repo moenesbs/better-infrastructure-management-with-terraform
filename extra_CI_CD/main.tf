@@ -11,7 +11,7 @@ resource "random_pet" "name" {
 
 
 resource "aws_iam_role" "notebook_role" {
-  name = "sagemaker_notebook_role-${var.student_name}"
+  name = "sagemaker_notebook_role"
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
     Statement = [
