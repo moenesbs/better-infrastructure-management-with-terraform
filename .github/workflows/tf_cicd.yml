@@ -38,6 +38,10 @@ jobs:
       # Install terraform (latest version)
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v1
+        
+      - name: Validate Terraform
+        run: |
+          terraform validate
 
 
         
