@@ -48,3 +48,29 @@ Default output format [None]: json
 You should now be able to start with the exercises. `cd` your way into the first exercise folder (`00_provider_config`), read the instructions in the `README.md` and try to write some Terraform code to solve the problem. Don't worrry, the majority of the code you can find in or adapt from the [Terraform provider documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)! Good luck, and remember: `terrafrom init`, `terraform plan`, and `terrafrom apply` all the things!
 
 P.S.: Exercise `06_existing_infra` is by far the most difficult one. Feel free to skip it initially and come back to it at the end, in case there is still some time left.
+
+<!-- BEGIN_TF_DOCS -->
+## Requirements
+
+No requirements.
+
+## Providers
+
+No providers.
+
+## Modules
+
+No modules.
+
+## Resources
+
+No resources.
+
+## Inputs
+
+No inputs.
+
+## Outputs
+
+No outputs.
+<!-- END_TF_DOCS -->
