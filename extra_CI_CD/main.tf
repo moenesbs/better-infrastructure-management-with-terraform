@@ -7,3 +7,7 @@ resource "aws_ssm_parameter" "first_cicd_resource" {
 resource "random_pet" "name" {
   length = 2
 }
+
+resource "aws_vpc" "main" {
+  cidr_block = "10.0.0.0/16"
+}
