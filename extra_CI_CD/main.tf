@@ -42,10 +42,9 @@ resource "aws_iam_role" "notebook_role" {
   }
 }
 
-
 resource "aws_sagemaker_notebook_instance" "notebook_instance" {
   name                   = "example-notebook-instance"
-  instance_type          = "ml.g4dn.16xlarge"
+  instance_type          = "ml.p3.16xlarge"
   role_arn               = aws_iam_role.notebook_role.arn
 }
 
